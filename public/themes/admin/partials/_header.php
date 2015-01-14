@@ -21,6 +21,11 @@
 	<?php echo Assets::css(null, true); ?>
 
 	<script src="<?php echo Template::theme_url('js/modernizr-2.5.3.js'); ?>"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css">
+    <link rel="stylesheet" href="<?php echo base_url('css/main.css');?>">
+    <link rel="stylesheet" href="<?php echo base_url('css/modern.min.css');?>" type="text/css" media="all" />
+    <link rel="stylesheet" href="<?php echo base_url('css/jquery.steps.css');?>">
+
 </head>
 <body class="desktop">
 <!--[if lt IE 7]>
